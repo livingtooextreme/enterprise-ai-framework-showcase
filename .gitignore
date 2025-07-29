@@ -1,0 +1,83 @@
+# Enterprise AI Framework Showcase - Git Ignore
+
+# Environment and Configuration
+.env
+.env.local
+.env.production
+.env.staging
+config/secrets.json
+secrets/
+
+# API Keys and Credentials
+*.key
+*.pem
+*.p12
+credentials.json
+service-account.json
+
+# Development Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime Data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency Directories
+node_modules/
+jspm_packages/
+
+# Build Outputs
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Temporary Files
+tmp/
+temp/
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup Files
+*.bak
+*.backup
+*.tmp
+
+# Professional Repository Protection
+# (These files should never be committed to public repositories)
+private/
+confidential/
+trade-secrets/
+implementation-details/
+client-data/
+proprietary/
